@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:wght@400;900&family=Roboto:wght@100;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4e5e2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.span1 {
+    color: #e6a34c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+}
+
+p{
+    font-family:'Roboto', sans-serif ;
+    font-size: 15px;
+    max-width: 600px;
+    margin-bottom: 2rem;
+}
+
+.btn1, .btn2 {
+    padding: 10px 30px;
+}
+
+.btn1{
+    background: #e6a34c;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-right: 150px;
+    padding: 10px 50px;
+    font-size: 1.0rem;
+    color: #fff;
+    background:#e6a34c;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn2{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+.image-container {
+    margin-top: 75px;
+    position: relative;
+}
+
+.food2 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    left: 35%;
+}
+
+
+.food3 {
+    position: absolute;
+    top: 70%;
+    right: 40%;
+}
+.section1 {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.section2 {
+    display: flex;
+    margin-top: 15%;
+}
+
+.span2 {
+    color: #e6a34c;
+    font-weight: 900;
+}
+
+.image-port {
+    position: relative;
+    display: flex;
+    margin-left: 55px;
+}
+
+.image-man{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-left: -20px;
+}
+
+.plast {
+    margin-left: 5px;
+}
+
+@media (max-width:764px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    
+    .logo{
+        font-size: 2rem;
+    }
+
+    .navbar ul li {
+        display: inline;
+        margin-left:5px;
+    }
+
+    .btn {
+        margin-left:25%;
+    }
+
+    .image-container {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    .food3{
+        position: absolute;
+        left: 15%;
+    }
+
+    .section2{
+        margin-top: 45%;
+    }
+}
